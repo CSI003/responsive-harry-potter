@@ -1,0 +1,45 @@
+body {
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	flex-wrap: wrap;
+	margin: none;
+}
+
+.character {
+	height: 100vh;
+	width: 50vw;
+	background-color: purple;
+}
+
+.container {
+	height: 100vh;
+	width: 50vw;
+	display: flex;
+	flex-wrap: wrap;
+	background-color: purple;
+}
+
+.card {
+	height: calc(100%/3);
+	width: 50%;
+}
+
+.red {
+	background-color: maroon;
+}
+
+.gold {
+	background-color: gold;
+}
+
+@media screen and (max-width: 800px) {
+
+	.character {
+		width: 100vw;
+	}
+	
+	.container {
+		width: 100vw;
+	}
+}
